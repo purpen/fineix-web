@@ -1,4 +1,4 @@
-# Phenix Web
+# fineix-web
 ----简介-----
 
 
@@ -65,3 +65,4 @@ composer dump-autoload
 ```
 app/helper.php和app/Libraries/
 ```
+
