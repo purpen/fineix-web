@@ -1,2 +1,0 @@
-# fineix-web
-Fineix website
