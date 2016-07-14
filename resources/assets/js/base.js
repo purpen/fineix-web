@@ -1,42 +1,45 @@
-/**
- * fifish base js
- */
-
-
-var fi = {};
-
-/**
- * 允许多附件上传
- */
-fi.record_asset_id = function(class_id, id){
-    var ids = $('#'+class_id).val();
-    if (ids.length == 0){
-        ids = id;
-    }else{
-        if (ids.indexOf(id) == -1){
-            ids += ','+id;
-        }
-    }
-    $('#'+class_id).val(ids);
-};
-
-//移除附件id
-fi.remove_asset_id = function(class_id, id){
-    var ids = $('#'+class_id).val();
-    var ids_arr = ids.split(',');
-    var is_index_key = phenix.in_array(ids_arr,id);
-    ids_arr.splice(is_index_key,1);
-    ids = ids_arr.join(',');
-    $('#'+class_id).val(ids);
-};
-
-//查看字符串是否在数组中存在
-fi.in_array = function(arr, val) {
-    var i;
-    for (i = 0; i < arr.length; i++) {
-        if (val === arr[i]) {
-            return i;
-        }
-    }
-    return -1;
-}; // 返回-1表示没找到，返回其他值表示找到的索引
+$(function(){
+    var swiper = new Swiper('.swiper-container.banner', {
+        pagination: '.swiper-pagination',
+        loop:true,
+        paginationClickable: true,
+        autoplay : 4500,
+    });
+    var swipercolumn = new Swiper('.swiper-container.column', {
+        pagination: '.swiper-pagination.pag-btn',
+        nextButton: '.swiper-button-next.next-btn',
+        prevButton: '.swiper-button-prev.prev-btn',
+        slidesPerView: 3,
+        slidesPerColumn: 2,
+        slidesPerGroup : 3,
+        paginationClickable: true,
+        spaceBetween: 20,
+        onlyExternal : true,
+    });
+    var swipernrow = new Swiper('.swiper-container.nrow', {
+        pagination: '.swiper-pagination.nrow-pag-btn',
+        nextButton: '.swiper-button-next.nrow-next-btn',
+        prevButton: '.swiper-button-prev.nrow-prev-btn',
+        slidesPerView: 3,
+        slidesPerColumn: 1,
+        slidesPerGroup : 3,
+        paginationClickable: true,
+        spaceBetween: 20,
+        onlyExternal : true,
+    });
+    $('.productbtn').click(function(){
+        $('html,body').animate({scrollTop:$('.product').offset().top },500);
+    });
+    $('.partnerbtn').click(function(){
+        $('html,body').animate({scrollTop:$('.partner').offset().top },800);
+    });
+    $('.contactbtn').click(function(){
+        $('html,body').animate({scrollTop:$('.contact').offset().top },800);
+    });
+    $(".chagelu").mouseover(function(){
+        $('.lulist').show();
+    });
+    $('.chagelu').mouseout(function(){
+        $('.lulist').hide();
+    })
+});

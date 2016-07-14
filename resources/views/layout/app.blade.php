@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@yield('title')-Fifish</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ elixir('css/base.css') }}">
+    <link rel="stylesheet" href="{{ elixir('assets/css/base.css') }}">
+
     @yield('partial_css')
     
     <style type="text/css">
         @yield('customize_css')
+
     </style>
     
 </head>
@@ -24,14 +24,9 @@
     
     @yield('footer')
 
-    <!-- JavaScripts -->
-    <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/base.js') }}"></script>
-    <!--[if lte IE 8]>
-        <script src="{{ asset('js/html5shiv.min.js') }}" type="text/javascript"></script>
-     <![endif]-->
-
+    <script src="{{ ('build/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ ('build/assets/js/swiper.min.js') }}"></script>
+    <script src="{{ elixir('assets/js/base.js') }}"></script>
     @yield('partial_js')
     <script type="text/javascript">
         @yield('customize_js')
