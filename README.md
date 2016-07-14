@@ -1,4 +1,4 @@
-# fineix-web
+# finiex-web
 ----简介-----
 
 
