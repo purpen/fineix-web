@@ -44,9 +44,9 @@
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy7.png') }}" align="absmiddle">
 		            	<div class="content">
-		            		<h2>Misfit Shine 2</h2>
-		            		<p>Fitness Tracker & Sleep Monitor</p>
-		            	</div>
+                        	<h2>UMA C1 </h2>
+		            		<p>The First Ebike Designed For Young Generation</p>
+                        </div>
 		            </div>
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy2.png') }}" align="absmiddle">
@@ -57,9 +57,9 @@
 		            </div>
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy8.png') }}" align="absmiddle">
-		            	<div class="content">
-		            		<h2>Misfit Ray</h2>
-		            		<p>Fitness + Sleep Tracker with Sport Band</p>
+                        <div class="content">
+                        	<h2>UMA mini</h2>
+		            		<p>The First Ebike Designed For Young Generation</p>
 		            	</div>
 		            </div>
 		            <div class="swiper-slide">
@@ -71,16 +71,16 @@
 		            </div>
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy9.png') }}" align="absmiddle">
-		            	<div class="content">
-		            		<h2>AutoBot Eye</h2>
-		            		<p>Redefine the Dash camera</p>
+                        <div class="content">
+                            <h2>Wowtation 1S/1F/1P </h2>
+		            		<p>Never so exquisite like this one.</p>
 		            	</div>
 		            </div>
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy4.png') }}" align="absmiddle">
-		            	<div class="content">
-		            		<h2>UMA C1 </h2>
-		            		<p>The First Ebike Designed For Young Generation</p>
+                        <div class="content">
+                        	<h2>Misfit Shine 2</h2>
+		            		<p>Fitness Tracker & Sleep Monitor</p>
 		            	</div>
 		            </div> 
 		            <div class="swiper-slide">
@@ -92,9 +92,9 @@
 		            </div>
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy5.png') }}" align="absmiddle">
-		            	<div class="content">
-		            		<h2>UMA mini</h2>
-		            		<p>The First Ebike Designed For Young Generation</p>
+                        <div class="content">
+                            <h2>Misfit Ray</h2>
+		            		<p>Fitness + Sleep Tracker with Sport Band</p>
 		            	</div>
 		            </div>
 		            <div class="swiper-slide">
@@ -107,8 +107,8 @@
 		            <div class="swiper-slide">
 		            	<img src="{{ url('images/xy6.png') }}" align="absmiddle">
 		            	<div class="content">
-		            		<h2>Wowtation 1S/1F/1P </h2>
-		            		<p>Never so exquisite like this one.</p>
+		            		<h2>AutoBot Eye</h2>
+		            		<p>Redefine the Dash camera</p>
 		            	</div>
 		            </div>
 		            <div class="swiper-slide">
