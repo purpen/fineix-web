@@ -1,6 +1,6 @@
 @extends('home.base')
 
-@section('title', 'index')
+@section('page_title', '')
 @section('content')
     @parent
 	<section class="swiper-container banner">
