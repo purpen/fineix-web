@@ -1,4 +1,4 @@
-# finiex-web
+# 深海鱼 Fifish
 ----简介-----
 
 
@@ -65,5 +65,3 @@ composer dump-autoload
 ```
 app/helper.php和app/Libraries/
 ```
-
-

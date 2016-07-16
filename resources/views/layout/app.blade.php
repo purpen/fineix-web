@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title')-Fifish</title>
+    <title>@yield('title')-fineix</title>
     <link rel="stylesheet" href="{{ elixir('assets/css/base.css') }}">
 
     @yield('partial_css')

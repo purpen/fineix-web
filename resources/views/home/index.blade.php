@@ -1,6 +1,6 @@
 @extends('home.base')
 
-@section('title', '首页')
+@section('title', 'index')
 @section('content')
     @parent
 	<section class="swiper-container banner">
