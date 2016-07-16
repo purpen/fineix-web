@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@yield('page_title')Fineix</title>
+	<link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" />
     <link rel="stylesheet" href="{{ elixir('assets/css/base.css') }}">
 
     @yield('partial_css')
