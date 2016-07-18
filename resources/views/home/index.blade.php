@@ -5,13 +5,13 @@
     @parent
 	<section class="swiper-container banner">
         <div class="swiper-wrapper">
-            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img1.png') }} )">
+            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img1.jpg') }} )">
             	<div class="box">
             		<h1>About TAIHUONIAO</h1>
             		<p>As China's leading incubator for technology and aesthetic products and the global sales company,  TAIHOUNIAO takes the leader place to upgrade the quality and innovation for “Made In China”. By establishing global sales network and a mature domestic sales network in China, TAIHUONIAO is helping Chinese outstanding and mature technology products step out to the world while also helping the world's best products come into China. We are sincerely looking forward to good business partners to join us and share the big cake of the booming and upgrading market and make win-win development.</p>
             	</div>
             </div>
-            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img2.png') }} )">
+            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img2.jpg') }} )">
             	<div class="box2">
             		<h1>YI 4K ACTION CAMERA</h1>
             		<p>
@@ -21,7 +21,7 @@
             		</p>
             	</div>
             </div>
-            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img3.png') }} )">
+            <div class="swiper-slide bg-cover" style="background-image: url( {{ url('images/img3.jpg') }} )">
             	<div class="box3">
             		<h1>Boosting the Uma Bike into the Korea is the critical step of Globalization by TAIHUONIAO</h1>
             	</div>
@@ -135,28 +135,28 @@
     		<div class="swiper-container nrow">
 		        <div class="swiper-wrapper">
 		            <div class="swiper-slide">
-		            	<img src="{{ url('images/new1.png') }}" align="absmiddle">
+		            	<img src="{{ url('images/new1.jpg') }}" align="absmiddle">
 						<div class="content">
 							<h2>May 26, 2016, together with Yunzao Technology, TAIHUONIAO had made the products launch press event in Soul Korea, announcing the Uma Bike Model C1 entered the the Korea market as the initial product.  As the exclusive partner with Yunzao Technology in Korea, TAIHUONIAO will deepen the globalization with Yunzao hand in hand during the coming cooperation.</h2>
 							<p>05/26/2016</p>
 						</div>
 		            </div>
 		            <div class="swiper-slide">
-						<img src="{{ url('images/new2.png') }}" align="absmiddle">
+						<img src="{{ url('images/new2.jpg') }}" align="absmiddle">
 						<div class="content">
 							<h2>CES ASIA is the International Consumer Electronics Show in China which held by the United States CEA.  During the exhibition in 2015 —2016, TAIHUONIAO has showed its nearly 50 intelligent hardware in the CES ASIA  in two consecutive years.</h2>
 							<p>05/11/2016</p>
 						</div>
 		            </div>
 		            <div class="swiper-slide">
-		            	<img src="{{ url('images/new3.png') }}" align="absmiddle">
+		            	<img src="{{ url('images/new3.jpg') }}" align="absmiddle">
 						<div class="content">
 							<h2>2016, Taihuoniao with Taiwan Designers’ Center, the Taiwan authority's cultural and creative agency, held a strategic signing ceremony in Taiwan Fair site.</h2>
 							<p>04/23/2016</p>
 						</div>
 		            </div>
 		            <div class="swiper-slide">
-		            	<img src="{{ url('images/new4.png') }}" align="absmiddle">
+		            	<img src="{{ url('images/new4.jpg') }}" align="absmiddle">
 						<div class="content">
 							<h2>CES International Consumer Electronics Show in USA is the world's largest and most widely affected consumer electronics Exhibition. In January 2016, TAIHOUNIAO showed its intelligent hardware products in the US CES Sands Hall. </h2>
 							<p>01/06/2016</p>
